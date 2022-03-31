@@ -31,10 +31,12 @@ public class HashSet_1 {
 		Students s1=new Students(1,"rahul","biology");// creating objects
 		Students s2=new Students(2,"utkarsh","History");
 		Students s3=new Students(3,"vinay","geography");
+		Students s4=new Students(2,"utkarsh","History");   //duplicate not allowed but can compile it
 		
 		s.add(s1);			// adding students info
 		s.add(s2);
 		s.add(s3);
+		s.add(s4);
 		
 		
 		for(Students i:s) 			// traversing through hashset
